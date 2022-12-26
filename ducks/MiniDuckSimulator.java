@@ -7,5 +7,9 @@ public class MiniDuckSimulator {
     model.performFly();
     model.setFlyBehavior(new FlyRocketPowered());
     model.performFly();
+    Duck myduck = new MyDuck();
+    myduck.display();
+    myduck.swim();
+    myduck.performQuack();
   }
 }
